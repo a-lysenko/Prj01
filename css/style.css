@@ -1,0 +1,131 @@
+/*@font-face {
+    font-family: 'bad_scriptregular';
+    src: url('../fonts/badscript-regular-webfont.eot');
+    src: url('../fonts/badscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/badscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/badscript-regular-webfont.woff') format('woff'),
+         url('../fonts/badscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/badscript-regular-webfont.svg#bad_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #996600;
+  }
+
+
+.wrapper{
+	width: 960px;
+	min-height: 100%;
+    height: auto !important; /*IE and so on*/
+
+	margin: 0 auto;
+
+	box-shadow: inset 0px 0px 0px 1px #663300;
+	background-color: #fff;
+	
+}
+
+.header{
+	height: 60px;
+	padding: 20px;
+
+	border: 1px solid #663300;
+	border-width: 1px 1px 0 1px;
+
+	border-radius: 30px 30px 0 0;
+
+	background-color: #996633;
+	box-shadow: 0px -35px 0px 1px #996600;
+}
+
+.content{
+	padding: 20px;
+}
+
+.empty-for-footer{
+	height: 80px; /* 10xp - reserve */
+}
+
+.footer{
+	width: 918px;
+	height: 29px;
+	margin: -70px auto 0;
+	padding: 20px;
+
+	background-color: #996633;
+
+	border: 1px solid #663300;
+	border-top-width: 0px;
+	border-radius: 0 0 30px 30px;
+
+	box-shadow: 0 35px 0 1px #996600;
+
+	text-align: center;
+}
+
+.info{
+	display: inline-block;
+	margin-top: 10px;
+
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.connections{
+	float: right;
+}
+
+.links{
+	overflow: hidden;
+}
+
+.links-item{
+	float: left;
+	margin-left: 5px;
+
+}
+.links-item:first-child{
+	margin-left: 0;
+}
+
+.link-to-1{
+	display: block;
+	border-radius: 25px;
+	height: 30px;
+	width: 30px;
+}
+
+.links-item-vk{
+	background: #fff url("../images/vkontakte.png") 0 0 no-repeat;
+	background-size: cover;
+}
+
+.links-item-mail{
+	background: #fff url("../images/email.png") 0 0 no-repeat;
+	background-size: cover;
+}
+
+.links-item-skype{
+	background: #fff url("../images/skype.png") 0 0 no-repeat;
+	background-size: cover;
+}
+
+.links-item-linkedin{
+	background: #fff url("../images/linkedin.png") 0 0 no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+/*http://iconbird.com/view/41085_iconki_vkontakte_v_kontakte_vkontakte  Nail Sagitov*/
