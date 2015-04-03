@@ -2,3 +2,6 @@
 
 16:59 03.04.2015
 How to merge into master?
+
+18:21 03.04.2015
+One more note. Chronologicaly it has been done after the changes of this file in base-dev.
